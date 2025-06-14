@@ -1,14 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://d3rn8gfhhx74o"]
+[gd_scene load_steps=3 format=3 uid="uid://d3rn8gfhhx74o"]
 
+[ext_resource type="Texture2D" uid="uid://0qhttgfjen5k" path="res://assets/images/ink_background.png" id="1_pw63i"]
 [ext_resource type="PackedScene" uid="uid://bygp1ueubabik" path="res://scenes/board.tscn" id="1_w2twt"]
 
-[node name="MainScene" type="Control"]
-layout_mode = 3
+[node name="MainScene" type="TextureRect"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+texture = ExtResource("1_pw63i")
+expand_mode = 5
+stretch_mode = 5
 
 [node name="Board" parent="." instance=ExtResource("1_w2twt")]
 layout_mode = 1

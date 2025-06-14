@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://devnog0hcbc5j"]
+
+[ext_resource type="FontFile" uid="uid://brla3jehmltw6" path="res://assets/fonts/SingleDay-Regular.ttf" id="1_ols5k"]
+
+[resource]
+default_font = ExtResource("1_ols5k")
+default_font_size = 48
